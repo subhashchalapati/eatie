@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Fredoka One", cursive;
+  background-color: #ffc107;
+}
+
+.container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  /* justify-content: center; */
+}
+.logo-container {
+  text-align: center;
+}
+.logo-container > img {
+  height: 13em;
+  width: 13em;
+}
+.description {
+  text-align: center;
+}
+.download-link {
+  text-align: center;
+  flex: 1;
+}
+/* .play-store {
+  flex: 1;
+  text-align: center;
+}
+.play-store > img {
+  height: 5em;
+} */
