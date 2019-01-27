@@ -20,11 +20,15 @@ body {
   width: 13em;
 }
 .description {
+  padding-top: 0;
   text-align: center;
 }
 .download-link {
   text-align: center;
   flex: 1;
+}
+.download-link > a {
+  color: #ff5722;
 }
 /* .play-store {
   flex: 1;
