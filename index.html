@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="particles.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Fredoka+One"
       rel="stylesheet"
@@ -12,15 +13,27 @@
     <title>eatie</title>
   </head>
   <body>
+    <div id="particles-container"></div>
     <div class="container">
       <div class="logo-container"><img src="./logo.png" alt="" /></div>
       <div class="description">
-        <p>order your favourite food from restaurants near you</p>
+        <p>Order Your Favourite Food From Restaurants Near You</p>
       </div>
-      <!-- <div class="play-store"><img src="./google-play-badge.png" alt="" /></div> -->
-      <div class="download-link">
-        <a href="./eatie.apk" download="eatie">Download here</a>
+      <div class="play-store">
+        <img src="./google-play-badge.png" alt="" />
       </div>
     </div>
+
+    <script>
+      particlesJS.load("particles-container", "./particles.json", function() {
+        console.log("callback - particles.js config loaded");
+      });
+    </script>
+    <footer>
+      <div class="footer">
+        <p>eatie2019@gmail.com</p>
+        <a href="./policy.html">PrivacyPolicy</a>
+      </div>
+    </footer>
   </body>
 </html>
