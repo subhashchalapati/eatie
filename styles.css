@@ -43,7 +43,7 @@
   width: 10em;
   height: 10em;
 }
-.play-store > img {
+.play-store > a > img {
   height: 5em;
 }
 .play-store {
